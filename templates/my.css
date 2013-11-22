@@ -1,0 +1,100 @@
+.orange-button td{
+  display: block
+}
+.orange-button a{
+  font-size: 11px;
+  color: #fff;
+  background-color: #ff7f1a;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff9933), color-stop(100%, #ff6600));
+  background: -webkit-linear-gradient(top, #ff9933,#ff6600);
+  background: -moz-linear-gradient(top, #ff9933,#ff6600);
+  background: -o-linear-gradient(top, #ff9933,#ff6600);
+  background: linear-gradient(top, #ff9933,#ff6600);
+  border: 1px solid #f60;
+  padding: 1px 8px 2px;
+}
+.orange-button a:hover{
+  text-shadow: #f60 1px 1px 1px;
+  color: #fff !important;
+  text-decoration: none;
+  background: none;
+  background-color: #f93;
+}
+.background{
+  background: url('background.png') no-repeat 0px -159px;;
+  width: 540px;
+  height: 295px;
+}
+.border-footer, .border-header, .border-middle{
+  font-size: 11px;
+  font-family: "Verdana","Tahoma",sans-serif;
+  border: 1px solid #e8e8e8;
+  border-bottom: none;
+  background-color: #fff;
+}
+.border-header{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.border-middle, .border-footer{
+  border-top: none;
+}
+table.columns td{
+  padding: 0px 0px 0px;
+}
+.footer-img{
+  background: url('bottom_trapeza.png') no-repeat 0 0;
+  width: 540px;
+  height: 148px;
+}
+#left_trapeze, #right_trapeze{
+  width: 160px;
+  height: 142px;
+}
+#left_trapeze{
+  padding-left: 20px;
+}
+#middle_middle{
+  width: 220px;
+  font-size: 11px;
+}
+.columns, .wrapper, .last{
+}
+#middle{
+  height: 89px;
+  width: 504px;
+}
+#left_trapeza_td{
+  width: 180px;
+}
+#white_square{
+  background-color: white;
+  height: 81px;
+}
+#logo{
+  background: url('background.png') no-repeat -225px -15px;
+  width: 158px;
+  height: 125px;
+}
+#title{
+  width: 504px;
+  font-size: 12px;
+}
+#title .sub-columns{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width 500px;
+}
+#orange-border{
+  width: 475px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+#orange-border td{
+  border-bottom: solid 1px #ff9933;
+}
+#title h3{
+  font-size: 16px;
+}
