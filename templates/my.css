@@ -71,12 +71,9 @@ table.columns td{
 #title .sub-columns{
   padding-bottom: 10px;
   padding-top: 10px;
-  padding-left: 10px;
-  width 500px;
 }
 #orange-border{
-  width: 475px;
-  margin-left: 10px;
+  width: 473px;
   margin-bottom: 15px;
 }
 #orange-border td{
@@ -116,4 +113,11 @@ width: 42px !important;
 }
 #middle_rectangle{
   width: 502px;
+}
+#content{
+  width: 473px !important;
+  margin: 10px 15px 5px 15px;
+}
+#content tr{
+  width: 473px !important;
 }
