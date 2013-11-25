@@ -21,7 +21,7 @@
   background-color: #f93;
 }
 .background{
-  background: url('background.png') no-repeat 0px -159px;;
+  /*background: url('background.png') no-repeat 0px -159px;;*/
   width: 540px;
   height: 295px;
 }
@@ -64,6 +64,14 @@ table.columns td{
 #middle{
   height: 89px;
   width: 504px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#middle_cell{
+  width: 504px;
+}
+#middle_middle_cell{
+  width: 220px;
 }
 #left_trapeza_td{
   width: 180px;
@@ -97,4 +105,36 @@ table.columns td{
 }
 #title h3{
   font-size: 16px;
+}
+.header{
+  padding-top: 30px !important;
+}
+#side_left_triangle{
+  padding-left: 20px !important;
+  padding-top: 77px !important;
+  width: 18px !important;
+}
+#side_right_triangle {
+  padding-top: 77px !important;
+}
+#top_triangles{
+  width: 220px;
+}
+#top_left_triangle{
+  width: 42px;
+}
+#footer_bottom{
+  width: 220px;
+}
+#bottom_left_square{
+  width: 28px;
+}
+#bottom_right_triangle{
+  width: 35px !important;
+}
+#bottom_right_square{
+  width: 30px !important;
+}
+#top_right_triangle{
+width: 42px !important;
 }
