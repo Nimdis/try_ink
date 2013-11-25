@@ -121,3 +121,9 @@ width: 42px !important;
 #content tr{
   width: 473px !important;
 }
+#right_content{
+  padding-left: 10px;
+}
+#time{
+  color: #9a9a9a;
+}
