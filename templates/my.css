@@ -1,24 +1,12 @@
-.orange-button td{
+#orange-button td{
   display: block
 }
-.orange-button a{
-  font-size: 11px;
-  color: #fff;
-  background-color: #ff7f1a;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff9933), color-stop(100%, #ff6600));
-  background: -webkit-linear-gradient(top, #ff9933,#ff6600);
-  background: -moz-linear-gradient(top, #ff9933,#ff6600);
-  background: -o-linear-gradient(top, #ff9933,#ff6600);
-  background: linear-gradient(top, #ff9933,#ff6600);
-  border: 1px solid #f60;
-  padding: 1px 8px 2px;
+#orange-button a{
+  background: url('button.png') no-repeat -7px -12px;
+  padding: 0px 125px 10px 0px;
 }
-.orange-button a:hover{
-  text-shadow: #f60 1px 1px 1px;
-  color: #fff !important;
-  text-decoration: none;
-  background: none;
-  background-color: #f93;
+#orange-button a:hover{
+  background-position: -144px -12px;
 }
 #title, #middle_rectangle{
   font-size: 11px;
@@ -57,7 +45,7 @@ table.columns td{
 }
 #white_square{
   background-color: white;
-  height: 81px;
+  height: 92px;
 }
 #logo{
   background: url('background.png') no-repeat -225px -15px;
